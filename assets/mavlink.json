@@ -1,0 +1,1308 @@
+{
+    "AHRS": {
+        "accel_weight": 0,
+        "error_rp": 0.003254679264500737,
+        "error_yaw": 0.0017316457815468311,
+        "message_information": {
+            "counter": 14648,
+            "frequency": 276.3773498535156,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307198-03:00",
+                "last_message": "2020-07-03T19:43:39.035323-03:00"
+            }
+        },
+        "omegaIx": -0.0018306352430954576,
+        "omegaIy": -0.0019709481857717037,
+        "omegaIz": -0.0017861020751297474,
+        "renorm_val": 0,
+        "type": "AHRS"
+    },
+    "AHRS2": {
+        "altitude": 0,
+        "lat": 0,
+        "lng": 0,
+        "message_information": {
+            "counter": 13837,
+            "frequency": 261.0754699707031,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.445841-03:00",
+                "last_message": "2020-07-03T19:43:39.035525-03:00"
+            }
+        },
+        "pitch": 0.37225914001464844,
+        "roll": -0.004640293773263693,
+        "type": "AHRS2",
+        "yaw": -0.10927809029817581
+    },
+    "AIRSPEED_AUTOCAL": {
+        "EAS2TAS": 1.074796199798584,
+        "Pax": 100,
+        "Pby": 100,
+        "Pcz": 9.999999974752427e-7,
+        "diff_pressure": 364.26708984375,
+        "message_information": {
+            "counter": 410,
+            "frequency": 17.08333396911621,
+            "time": {
+                "first_message": "2020-07-03T19:43:14.757735-03:00",
+                "last_message": "2020-07-03T19:43:39.021485-03:00"
+            }
+        },
+        "ratio": 1.9936000108718872,
+        "state_x": 0,
+        "state_y": 0,
+        "state_z": 0.7082408666610718,
+        "type": "AIRSPEED_AUTOCAL",
+        "vx": 23.9320011138916,
+        "vy": -2.511000156402588,
+        "vz": -11.231000900268555
+    },
+    "AOA_SSA": {
+        "AOA": -3.1704626083374023,
+        "SSA": -0.8401697278022766,
+        "message_information": {
+            "counter": 14726,
+            "frequency": 277.84906005859375,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307808-03:00",
+                "last_message": "2020-07-03T19:43:39.036561-03:00"
+            }
+        },
+        "time_usec": 807033724,
+        "type": "AOA_SSA"
+    },
+    "ATTITUDE": {
+        "message_information": {
+            "counter": 14674,
+            "frequency": 276.867919921875,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.305563-03:00",
+                "last_message": "2020-07-03T19:43:39.036813-03:00"
+            }
+        },
+        "pitch": 0.3690577447414398,
+        "pitchspeed": -0.01661878637969494,
+        "roll": 0.000892736716195941,
+        "rollspeed": 0.01679595746099949,
+        "time_boot_ms": 807133,
+        "type": "ATTITUDE",
+        "yaw": -0.09267722815275192,
+        "yawspeed": 0.003902553580701351
+    },
+    "AUTOPILOT_VERSION": {
+        "board_version": 0,
+        "capabilities": {
+            "bits": 45935
+        },
+        "flight_custom_version": [
+            97,
+            48,
+            50,
+            53,
+            56,
+            102,
+            51,
+            53
+        ],
+        "flight_sw_version": 67174400,
+        "message_information": {
+            "counter": 3,
+            "frequency": 0.1034482792019844,
+            "time": {
+                "first_message": "2020-07-03T19:43:08.858318-03:00",
+                "last_message": "2020-07-03T19:43:38.462129-03:00"
+            }
+        },
+        "middleware_custom_version": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "middleware_sw_version": 0,
+        "os_custom_version": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "os_sw_version": 0,
+        "product_id": 0,
+        "type": "AUTOPILOT_VERSION",
+        "uid": 0,
+        "uid2": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "vendor_id": 0
+    },
+    "BATTERY_STATUS": {
+        "battery_function": {
+            "type": "MAV_BATTERY_FUNCTION_UNKNOWN"
+        },
+        "battery_remaining": 1,
+        "charge_state": {
+            "type": "MAV_BATTERY_CHARGE_STATE_UNDEFINED"
+        },
+        "current_battery": 5001,
+        "current_consumed": 3244,
+        "energy_consumed": 1419,
+        "id": 0,
+        "mavtype": {
+            "type": "MAV_BATTERY_TYPE_UNKNOWN"
+        },
+        "message_information": {
+            "counter": 14716,
+            "frequency": 277.6603698730469,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307723-03:00",
+                "last_message": "2020-07-03T19:43:39.036380-03:00"
+            }
+        },
+        "temperature": 32767,
+        "time_remaining": 0,
+        "type": "BATTERY_STATUS",
+        "voltages": [
+            11896,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535
+        ]
+    },
+    "CAMERA_FEEDBACK": {
+        "alt_msl": 0.07999999821186066,
+        "alt_rel": 0.07999999821186066,
+        "cam_idx": 0,
+        "completed_captures": 0,
+        "flags": {
+            "type": "CAMERA_FEEDBACK_PHOTO"
+        },
+        "foc_len": 0,
+        "img_idx": 1,
+        "lat": 3,
+        "lng": -1,
+        "message_information": {
+            "counter": 1,
+            "frequency": null,
+            "time": {
+                "first_message": "2020-07-03T19:43:09.772498-03:00",
+                "last_message": "2020-07-03T19:43:09.772503-03:00"
+            }
+        },
+        "pitch": 0.029999999329447746,
+        "roll": 0,
+        "target_system": 0,
+        "time_usec": 0,
+        "type": "CAMERA_FEEDBACK",
+        "yaw": 342.1199951171875
+    },
+    "COMMAND_ACK": {
+        "command": {
+            "type": "MAV_CMD_COMPONENT_ARM_DISARM"
+        },
+        "message_information": {
+            "counter": 205,
+            "frequency": 3.942307710647583,
+            "time": {
+                "first_message": "2020-07-03T19:42:46.014104-03:00",
+                "last_message": "2020-07-03T19:43:38.583821-03:00"
+            }
+        },
+        "progress": 0,
+        "result": {
+            "type": "MAV_RESULT_ACCEPTED"
+        },
+        "result_param2": 0,
+        "target_component": 0,
+        "target_system": 0,
+        "type": "COMMAND_ACK"
+    },
+    "COMMAND_INT": {
+        "autocontinue": 0,
+        "command": {
+            "type": "MAV_CMD_DO_REPOSITION"
+        },
+        "current": 0,
+        "frame": {
+            "type": "MAV_FRAME_GLOBAL_RELATIVE_ALT_INT"
+        },
+        "message_information": {
+            "counter": 6,
+            "frequency": 0.1764705926179886,
+            "time": {
+                "first_message": "2020-07-03T19:42:54.687353-03:00",
+                "last_message": "2020-07-03T19:43:28.940093-03:00"
+            }
+        },
+        "param1": 0,
+        "param2": 0,
+        "param3": 0,
+        "param4": 0,
+        "target_component": 1,
+        "target_system": 1,
+        "type": "COMMAND_INT",
+        "x": -353559093,
+        "y": 1491702961,
+        "z": 100
+    },
+    "COMMAND_LONG": {
+        "command": {
+            "type": "MAV_CMD_COMPONENT_ARM_DISARM"
+        },
+        "confirmation": 1,
+        "message_information": {
+            "counter": 192,
+            "frequency": 3.692307710647583,
+            "time": {
+                "first_message": "2020-07-03T19:42:46.013850-03:00",
+                "last_message": "2020-07-03T19:43:38.583561-03:00"
+            }
+        },
+        "param1": 1,
+        "param2": 0,
+        "param3": 0,
+        "param4": 0,
+        "param5": 0,
+        "param6": 0,
+        "param7": 0,
+        "target_component": 1,
+        "target_system": 1,
+        "type": "COMMAND_LONG"
+    },
+    "FENCE_FETCH_POINT": {
+        "idx": 5,
+        "message_information": {
+            "counter": 5,
+            "frequency": null,
+            "time": {
+                "first_message": "2020-07-03T19:43:12.566917-03:00",
+                "last_message": "2020-07-03T19:43:12.646114-03:00"
+            }
+        },
+        "target_component": 0,
+        "target_system": 1,
+        "type": "FENCE_FETCH_POINT"
+    },
+    "FENCE_POINT": {
+        "count": 6,
+        "idx": 5,
+        "lat": -35.35873794555664,
+        "lng": 149.16506958007812,
+        "message_information": {
+            "counter": 10,
+            "frequency": null,
+            "time": {
+                "first_message": "2020-07-03T19:43:12.566831-03:00",
+                "last_message": "2020-07-03T19:43:12.649291-03:00"
+            }
+        },
+        "target_component": 230,
+        "target_system": 255,
+        "type": "FENCE_POINT"
+    },
+    "FENCE_STATUS": {
+        "breach_count": 0,
+        "breach_mitigation": {
+            "type": "FENCE_MITIGATE_NONE"
+        },
+        "breach_status": 0,
+        "breach_time": 0,
+        "breach_type": {
+            "type": "FENCE_BREACH_NONE"
+        },
+        "message_information": {
+            "counter": 65,
+            "frequency": null,
+            "time": {
+                "first_message": "2020-07-03T19:43:12.864061-03:00",
+                "last_message": "2020-07-03T19:43:13.067408-03:00"
+            }
+        },
+        "type": "FENCE_STATUS"
+    },
+    "GLOBAL_POSITION_INT": {
+        "alt": 669790,
+        "hdg": 35469,
+        "lat": -353603528,
+        "lon": 1491649023,
+        "message_information": {
+            "counter": 14666,
+            "frequency": 276.71697998046875,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.305667-03:00",
+                "last_message": "2020-07-03T19:43:39.036981-03:00"
+            }
+        },
+        "relative_alt": 86591,
+        "time_boot_ms": 807133,
+        "type": "GLOBAL_POSITION_INT",
+        "vx": 2402,
+        "vy": -249,
+        "vz": -1164
+    },
+    "GPS_GLOBAL_ORIGIN": {
+        "altitude": 583200,
+        "latitude": -353629380,
+        "longitude": 1491650850,
+        "message_information": {
+            "counter": 114,
+            "frequency": 2.192307710647583,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.943802-03:00",
+                "last_message": "2020-07-03T19:43:38.559916-03:00"
+            }
+        },
+        "time_usec": 792733613,
+        "type": "GPS_GLOBAL_ORIGIN"
+    },
+    "GPS_RAW_INT": {
+        "alt": 661510,
+        "alt_ellipsoid": 0,
+        "cog": 35390,
+        "eph": 121,
+        "epv": 200,
+        "fix_type": {
+            "type": "GPS_FIX_TYPE_RTK_FIXED"
+        },
+        "h_acc": 200,
+        "hdg_acc": 0,
+        "lat": -353604094,
+        "lon": 1491649093,
+        "message_information": {
+            "counter": 14636,
+            "frequency": 276.15093994140625,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307019-03:00",
+                "last_message": "2020-07-03T19:43:39.035140-03:00"
+            }
+        },
+        "satellites_visible": 10,
+        "time_usec": 806994000,
+        "type": "GPS_RAW_INT",
+        "v_acc": 200,
+        "vel": 2406,
+        "vel_acc": 40
+    },
+    "HEARTBEAT": {
+        "autopilot": {
+            "type": "MAV_AUTOPILOT_ARDUPILOTMEGA"
+        },
+        "base_mode": {
+            "bits": 209
+        },
+        "custom_mode": 5,
+        "mavlink_version": 3,
+        "mavtype": {
+            "type": "MAV_TYPE_FIXED_WING"
+        },
+        "message_information": {
+            "counter": 1758,
+            "frequency": 33.1698112487793,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.299526-03:00",
+                "last_message": "2020-07-03T19:43:39.033392-03:00"
+            }
+        },
+        "system_status": {
+            "type": "MAV_STATE_ACTIVE"
+        },
+        "type": "HEARTBEAT"
+    },
+    "HOME_POSITION": {
+        "altitude": 583200,
+        "approach_x": 0,
+        "approach_y": 0,
+        "approach_z": 0,
+        "latitude": -353622725,
+        "longitude": 1491651264,
+        "message_information": {
+            "counter": 192,
+            "frequency": 3.6226415634155273,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.460322-03:00",
+                "last_message": "2020-07-03T19:43:38.560036-03:00"
+            }
+        },
+        "q": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "time_usec": 792733613,
+        "type": "HOME_POSITION",
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "HWSTATUS": {
+        "I2Cerr": 0,
+        "Vcc": 5000,
+        "message_information": {
+            "counter": 14717,
+            "frequency": 277.67926025390625,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307385-03:00",
+                "last_message": "2020-07-03T19:43:39.035608-03:00"
+            }
+        },
+        "type": "HWSTATUS"
+    },
+    "LOCAL_POSITION_NED": {
+        "message_information": {
+            "counter": 10737,
+            "frequency": 206.48077392578125,
+            "time": {
+                "first_message": "2020-07-03T19:42:46.848895-03:00",
+                "last_message": "2020-07-03T19:43:39.035918-03:00"
+            }
+        },
+        "time_boot_ms": 807033,
+        "type": "LOCAL_POSITION_NED",
+        "vx": 23.99991226196289,
+        "vy": -2.5031185150146484,
+        "vz": -11.686633110046387,
+        "x": 211.31207275390625,
+        "y": -20.092634201049805,
+        "z": -85.36982727050781
+    },
+    "LOG_ENTRY": {
+        "id": 4,
+        "last_log_num": 4,
+        "message_information": {
+            "counter": 8,
+            "frequency": 0.7272727489471436,
+            "time": {
+                "first_message": "2020-07-03T19:42:52.358196-03:00",
+                "last_message": "2020-07-03T19:43:03.673268-03:00"
+            }
+        },
+        "num_logs": 4,
+        "size": 217088,
+        "time_utc": 1593790003,
+        "type": "LOG_ENTRY"
+    },
+    "LOG_REQUEST_LIST": {
+        "end": 65535,
+        "message_information": {
+            "counter": 5,
+            "frequency": 0.4545454680919647,
+            "time": {
+                "first_message": "2020-07-03T19:42:52.358099-03:00",
+                "last_message": "2020-07-03T19:43:03.667719-03:00"
+            }
+        },
+        "start": 0,
+        "target_component": 0,
+        "target_system": 1,
+        "type": "LOG_REQUEST_LIST"
+    },
+    "MEMINFO": {
+        "brkval": 0,
+        "freemem": 65535,
+        "freemem32": 131072,
+        "message_information": {
+            "counter": 14608,
+            "frequency": 275.6226501464844,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.305994-03:00",
+                "last_message": "2020-07-03T19:43:39.037446-03:00"
+            }
+        },
+        "type": "MEMINFO"
+    },
+    "MISSION_ACK": {
+        "mavtype": {
+            "type": "MAV_MISSION_ERROR"
+        },
+        "message_information": {
+            "counter": 28,
+            "frequency": 0.5384615659713745,
+            "time": {
+                "first_message": "2020-07-03T19:42:46.010825-03:00",
+                "last_message": "2020-07-03T19:43:38.440075-03:00"
+            }
+        },
+        "mission_type": {
+            "type": "MAV_MISSION_TYPE_MISSION"
+        },
+        "target_component": 230,
+        "target_system": 255,
+        "type": "MISSION_ACK"
+    },
+    "MISSION_CLEAR_ALL": {
+        "message_information": {
+            "counter": 22,
+            "frequency": 0.4399999976158142,
+            "time": {
+                "first_message": "2020-07-03T19:42:47.720270-03:00",
+                "last_message": "2020-07-03T19:43:38.439846-03:00"
+            }
+        },
+        "mission_type": {
+            "type": "MAV_MISSION_TYPE_MISSION"
+        },
+        "target_component": 0,
+        "target_system": 1,
+        "type": "MISSION_CLEAR_ALL"
+    },
+    "MISSION_COUNT": {
+        "count": 12,
+        "message_information": {
+            "counter": 25,
+            "frequency": 0.48076921701431274,
+            "time": {
+                "first_message": "2020-07-03T19:42:46.010537-03:00",
+                "last_message": "2020-07-03T19:43:38.440180-03:00"
+            }
+        },
+        "mission_type": {
+            "type": "MAV_MISSION_TYPE_MISSION"
+        },
+        "target_component": 230,
+        "target_system": 255,
+        "type": "MISSION_COUNT"
+    },
+    "MISSION_CURRENT": {
+        "message_information": {
+            "counter": 14632,
+            "frequency": 276.0754699707031,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.306082-03:00",
+                "last_message": "2020-07-03T19:43:39.037722-03:00"
+            }
+        },
+        "seq": 8,
+        "type": "MISSION_CURRENT"
+    },
+    "MISSION_ITEM_INT": {
+        "autocontinue": 1,
+        "command": {
+            "type": "MAV_CMD_NAV_LAND"
+        },
+        "current": 0,
+        "frame": {
+            "type": "MAV_FRAME_GLOBAL_RELATIVE_ALT"
+        },
+        "message_information": {
+            "counter": 138,
+            "frequency": 3.2093024253845215,
+            "time": {
+                "first_message": "2020-07-03T19:42:51.120066-03:00",
+                "last_message": "2020-07-03T19:43:34.944214-03:00"
+            }
+        },
+        "mission_type": {
+            "type": "MAV_MISSION_TYPE_MISSION"
+        },
+        "param1": 0,
+        "param2": 0,
+        "param3": 0,
+        "param4": 1,
+        "seq": 11,
+        "target_component": 230,
+        "target_system": 255,
+        "type": "MISSION_ITEM_INT",
+        "x": -353630410,
+        "y": 1491652220,
+        "z": 0
+    },
+    "MISSION_ITEM_REACHED": {
+        "message_information": {
+            "counter": 30,
+            "frequency": 0.6818181872367859,
+            "time": {
+                "first_message": "2020-07-03T19:42:51.679013-03:00",
+                "last_message": "2020-07-03T19:43:36.672479-03:00"
+            }
+        },
+        "seq": 10,
+        "type": "MISSION_ITEM_REACHED"
+    },
+    "MISSION_REQUEST": {
+        "message_information": {
+            "counter": 50,
+            "frequency": 1.1627906560897827,
+            "time": {
+                "first_message": "2020-07-03T19:42:51.119921-03:00",
+                "last_message": "2020-07-03T19:43:34.935404-03:00"
+            }
+        },
+        "mission_type": {
+            "type": "MAV_MISSION_TYPE_MISSION"
+        },
+        "seq": 11,
+        "target_component": 230,
+        "target_system": 255,
+        "type": "MISSION_REQUEST"
+    },
+    "MISSION_REQUEST_INT": {
+        "message_information": {
+            "counter": 79,
+            "frequency": 1.6808511018753052,
+            "time": {
+                "first_message": "2020-07-03T19:42:51.128693-03:00",
+                "last_message": "2020-07-03T19:43:38.441903-03:00"
+            }
+        },
+        "mission_type": {
+            "type": "MAV_MISSION_TYPE_MISSION"
+        },
+        "seq": 10,
+        "target_component": 0,
+        "target_system": 1,
+        "type": "MISSION_REQUEST_INT"
+    },
+    "MISSION_REQUEST_LIST": {
+        "message_information": {
+            "counter": 20,
+            "frequency": 0.4000000059604645,
+            "time": {
+                "first_message": "2020-07-03T19:42:47.720361-03:00",
+                "last_message": "2020-07-03T19:43:38.439958-03:00"
+            }
+        },
+        "mission_type": {
+            "type": "MAV_MISSION_TYPE_MISSION"
+        },
+        "target_component": 0,
+        "target_system": 1,
+        "type": "MISSION_REQUEST_LIST"
+    },
+    "MISSION_SET_CURRENT": {
+        "message_information": {
+            "counter": 4,
+            "frequency": 0.20000000298023224,
+            "time": {
+                "first_message": "2020-07-03T19:43:14.564417-03:00",
+                "last_message": "2020-07-03T19:43:34.970856-03:00"
+            }
+        },
+        "seq": 7,
+        "target_component": 0,
+        "target_system": 1,
+        "type": "MISSION_SET_CURRENT"
+    },
+    "NAV_CONTROLLER_OUTPUT": {
+        "alt_error": -86.3699951171875,
+        "aspd_error": -1679.7489013671875,
+        "message_information": {
+            "counter": 7939,
+            "frequency": 152.67308044433594,
+            "time": {
+                "first_message": "2020-07-03T19:42:46.043768-03:00",
+                "last_message": "2020-07-03T19:43:39.037597-03:00"
+            }
+        },
+        "nav_bearing": -51,
+        "nav_pitch": 20,
+        "nav_roll": 0,
+        "target_bearing": -6,
+        "type": "NAV_CONTROLLER_OUTPUT",
+        "wp_dist": 300,
+        "xtrack_error": -0.4903678894042969
+    },
+    "PARAM_REQUEST_LIST": {
+        "message_information": {
+            "counter": 4,
+            "frequency": 0.2666666805744171,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.744975-03:00",
+                "last_message": "2020-07-03T19:43:00.988388-03:00"
+            }
+        },
+        "target_component": 1,
+        "target_system": 1,
+        "type": "PARAM_REQUEST_LIST"
+    },
+    "PARAM_REQUEST_READ": {
+        "message_information": {
+            "counter": 915,
+            "frequency": 18.299999237060547,
+            "time": {
+                "first_message": "2020-07-03T19:42:47.576001-03:00",
+                "last_message": "2020-07-03T19:43:38.571546-03:00"
+            }
+        },
+        "param_id": [
+            "A",
+            "H",
+            "R",
+            "S",
+            "_",
+            "E",
+            "K",
+            "F",
+            "_",
+            "T",
+            "Y",
+            "P",
+            "E",
+            "\u0000",
+            "\u0000",
+            "\u0000"
+        ],
+        "param_index": -1,
+        "target_component": 0,
+        "target_system": 1,
+        "type": "PARAM_REQUEST_READ"
+    },
+    "PARAM_SET": {
+        "message_information": {
+            "counter": 136,
+            "frequency": 3.4000000953674316,
+            "time": {
+                "first_message": "2020-07-03T19:42:47.582145-03:00",
+                "last_message": "2020-07-03T19:43:28.399003-03:00"
+            }
+        },
+        "param_id": [
+            "T",
+            "R",
+            "I",
+            "M",
+            "_",
+            "A",
+            "R",
+            "S",
+            "P",
+            "D",
+            "_",
+            "C",
+            "M",
+            "\u0000",
+            "\u0000",
+            "\u0000"
+        ],
+        "param_type": {
+            "type": "MAV_PARAM_TYPE_REAL32"
+        },
+        "param_value": 2200,
+        "target_component": 0,
+        "target_system": 1,
+        "type": "PARAM_SET"
+    },
+    "PARAM_VALUE": {
+        "message_information": {
+            "counter": 7693,
+            "frequency": 145.15093994140625,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.304548-03:00",
+                "last_message": "2020-07-03T19:43:38.780240-03:00"
+            }
+        },
+        "param_count": 1139,
+        "param_id": [
+            "S",
+            "T",
+            "A",
+            "T",
+            "_",
+            "R",
+            "U",
+            "N",
+            "T",
+            "I",
+            "M",
+            "E",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000"
+        ],
+        "param_index": 65535,
+        "param_type": {
+            "type": "MAV_PARAM_TYPE_INT32"
+        },
+        "param_value": 1316,
+        "type": "PARAM_VALUE"
+    },
+    "PID_TUNING": {
+        "D": -0.36702969670295715,
+        "FF": 0,
+        "I": 0,
+        "P": -0.49247199296951294,
+        "achieved": 0.023905394598841667,
+        "axis": {
+            "type": "PID_TUNING_ROLL"
+        },
+        "desired": -0.17999999225139618,
+        "message_information": {
+            "counter": 20,
+            "frequency": null,
+            "time": {
+                "first_message": "2020-07-03T19:42:47.587398-03:00",
+                "last_message": "2020-07-03T19:42:47.658463-03:00"
+            }
+        },
+        "type": "PID_TUNING"
+    },
+    "POSITION_TARGET_GLOBAL_INT": {
+        "afx": 0,
+        "afy": 0,
+        "afz": 0,
+        "alt": 583.1599731445312,
+        "coordinate_frame": {
+            "type": "MAV_FRAME_GLOBAL"
+        },
+        "lat_int": -353630410,
+        "lon_int": 1491652220,
+        "message_information": {
+            "counter": 8007,
+            "frequency": 153.98077392578125,
+            "time": {
+                "first_message": "2020-07-03T19:42:46.046417-03:00",
+                "last_message": "2020-07-03T19:43:39.036178-03:00"
+            }
+        },
+        "time_boot_ms": 807033,
+        "type": "POSITION_TARGET_GLOBAL_INT",
+        "type_mask": {
+            "bits": 4088
+        },
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "yaw": 0,
+        "yaw_rate": 0
+    },
+    "POWER_STATUS": {
+        "Vcc": 5000,
+        "Vservo": 0,
+        "flags": {
+            "bits": 0
+        },
+        "message_information": {
+            "counter": 14643,
+            "frequency": 276.28302001953125,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.305896-03:00",
+                "last_message": "2020-07-03T19:43:39.037319-03:00"
+            }
+        },
+        "type": "POWER_STATUS"
+    },
+    "RAW_IMU": {
+        "id": 0,
+        "message_information": {
+            "counter": 14697,
+            "frequency": 277.3018798828125,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.306563-03:00",
+                "last_message": "2020-07-03T19:43:39.038694-03:00"
+            }
+        },
+        "temperature": 2300,
+        "time_usec": 807133684,
+        "type": "RAW_IMU",
+        "xacc": 365,
+        "xgyro": 18,
+        "xmag": 396,
+        "yacc": 22,
+        "ygyro": -14,
+        "ymag": 72,
+        "zacc": -877,
+        "zgyro": 5,
+        "zmag": -423
+    },
+    "RC_CHANNELS": {
+        "chan10_raw": 1500,
+        "chan11_raw": 1500,
+        "chan12_raw": 1500,
+        "chan13_raw": 1500,
+        "chan14_raw": 1500,
+        "chan15_raw": 1500,
+        "chan16_raw": 1500,
+        "chan17_raw": 0,
+        "chan18_raw": 0,
+        "chan1_raw": 1500,
+        "chan2_raw": 1100,
+        "chan3_raw": 2000,
+        "chan4_raw": 1500,
+        "chan5_raw": 1500,
+        "chan6_raw": 1500,
+        "chan7_raw": 1500,
+        "chan8_raw": 1800,
+        "chan9_raw": 1500,
+        "chancount": 16,
+        "message_information": {
+            "counter": 14645,
+            "frequency": 276.32073974609375,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.306452-03:00",
+                "last_message": "2020-07-03T19:43:39.038455-03:00"
+            }
+        },
+        "rssi": 0,
+        "time_boot_ms": 807133,
+        "type": "RC_CHANNELS"
+    },
+    "REQUEST_DATA_STREAM": {
+        "message_information": {
+            "counter": 32,
+            "frequency": 0.6399999856948853,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.301869-03:00",
+                "last_message": "2020-07-03T19:43:35.876264-03:00"
+            }
+        },
+        "req_message_rate": 10,
+        "req_stream_id": 0,
+        "start_stop": 1,
+        "target_component": 0,
+        "target_system": 1,
+        "type": "REQUEST_DATA_STREAM"
+    },
+    "SCALED_IMU2": {
+        "message_information": {
+            "counter": 14646,
+            "frequency": 276.3396301269531,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.306675-03:00",
+                "last_message": "2020-07-03T19:43:39.038859-03:00"
+            }
+        },
+        "temperature": 2300,
+        "time_boot_ms": 807133,
+        "type": "SCALED_IMU2",
+        "xacc": 369,
+        "xgyro": 18,
+        "xmag": 396,
+        "yacc": 25,
+        "ygyro": -14,
+        "ymag": 72,
+        "zacc": -870,
+        "zgyro": 5,
+        "zmag": -423
+    },
+    "SCALED_IMU3": {
+        "message_information": {
+            "counter": 14597,
+            "frequency": 275.41510009765625,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.306797-03:00",
+                "last_message": "2020-07-03T19:43:39.039085-03:00"
+            }
+        },
+        "temperature": 0,
+        "time_boot_ms": 807133,
+        "type": "SCALED_IMU3",
+        "xacc": 0,
+        "xgyro": 0,
+        "xmag": 396,
+        "yacc": 0,
+        "ygyro": 0,
+        "ymag": 72,
+        "zacc": 0,
+        "zgyro": 0,
+        "zmag": -423
+    },
+    "SCALED_PRESSURE": {
+        "message_information": {
+            "counter": 14637,
+            "frequency": 276.1697998046875,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.306887-03:00",
+                "last_message": "2020-07-03T19:43:39.035005-03:00"
+            }
+        },
+        "press_abs": 936.0418701171875,
+        "press_diff": 3.6026415824890137,
+        "temperature": 3500,
+        "time_boot_ms": 807033,
+        "type": "SCALED_PRESSURE"
+    },
+    "SENSOR_OFFSETS": {
+        "accel_cal_x": 0.0010000000474974513,
+        "accel_cal_y": 0.0010000000474974513,
+        "accel_cal_z": 0.0010000000474974513,
+        "gyro_cal_x": 0,
+        "gyro_cal_y": 0,
+        "gyro_cal_z": 0,
+        "mag_declination": 0.20763088762760162,
+        "mag_ofs_x": 5,
+        "mag_ofs_y": 13,
+        "mag_ofs_z": -18,
+        "message_information": {
+            "counter": 1320,
+            "frequency": 24.90566062927246,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.329293-03:00",
+                "last_message": "2020-07-03T19:43:38.994783-03:00"
+            }
+        },
+        "raw_press": 93753,
+        "raw_temp": 3500,
+        "type": "SENSOR_OFFSETS"
+    },
+    "SERVO_OUTPUT_RAW": {
+        "message_information": {
+            "counter": 15089,
+            "frequency": 284.6981201171875,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.306315-03:00",
+                "last_message": "2020-07-03T19:43:39.038051-03:00"
+            }
+        },
+        "port": 0,
+        "servo10_raw": 0,
+        "servo11_raw": 0,
+        "servo12_raw": 0,
+        "servo13_raw": 0,
+        "servo14_raw": 0,
+        "servo15_raw": 0,
+        "servo16_raw": 0,
+        "servo1_raw": 1499,
+        "servo2_raw": 1526,
+        "servo3_raw": 2000,
+        "servo4_raw": 1500,
+        "servo5_raw": 1100,
+        "servo6_raw": 0,
+        "servo7_raw": 0,
+        "servo8_raw": 0,
+        "servo9_raw": 0,
+        "time_usec": 807133684,
+        "type": "SERVO_OUTPUT_RAW"
+    },
+    "SIMSTATE": {
+        "lat": -353603617,
+        "lng": 1491649029,
+        "message_information": {
+            "counter": 14682,
+            "frequency": 277.01885986328125,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307301-03:00",
+                "last_message": "2020-07-03T19:43:39.035433-03:00"
+            }
+        },
+        "pitch": 0.37069061398506165,
+        "roll": -0.007187611423432827,
+        "type": "SIMSTATE",
+        "xacc": 3.5356740951538086,
+        "xgyro": 0.04629049450159073,
+        "yacc": 0.26298561692237854,
+        "yaw": -0.10477732121944427,
+        "ygyro": -0.011307233944535255,
+        "zacc": -9.466105461120605,
+        "zgyro": 0.0006413466762751341
+    },
+    "STATUSTEXT": {
+        "message_information": {
+            "counter": 398,
+            "frequency": 7.509433746337891,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.327617-03:00",
+                "last_message": "2020-07-03T19:43:38.583712-03:00"
+            }
+        },
+        "severity": {
+            "type": "MAV_SEVERITY_INFO"
+        },
+        "text": [
+            "T",
+            "h",
+            "r",
+            "o",
+            "t",
+            "t",
+            "l",
+            "e",
+            " ",
+            "a",
+            "r",
+            "m",
+            "e",
+            "d",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000",
+            "\u0000"
+        ],
+        "type": "STATUSTEXT"
+    },
+    "SYSTEM_TIME": {
+        "message_information": {
+            "counter": 14654,
+            "frequency": 276.4905700683594,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307105-03:00",
+                "last_message": "2020-07-03T19:43:39.035229-03:00"
+            }
+        },
+        "time_boot_ms": 807033,
+        "time_unix_usec": 1593790829200192,
+        "type": "SYSTEM_TIME"
+    },
+    "SYS_STATUS": {
+        "battery_remaining": 1,
+        "current_battery": 5001,
+        "drop_rate_comm": 0,
+        "errors_comm": 0,
+        "errors_count1": 0,
+        "errors_count2": 0,
+        "errors_count3": 0,
+        "errors_count4": 0,
+        "load": 0,
+        "message_information": {
+            "counter": 14657,
+            "frequency": 276.54718017578125,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.305791-03:00",
+                "last_message": "2020-07-03T19:43:39.037178-03:00"
+            }
+        },
+        "onboard_control_sensors_enabled": {
+            "bits": 325159999
+        },
+        "onboard_control_sensors_health": {
+            "bits": 326208575
+        },
+        "onboard_control_sensors_present": {
+            "bits": 325188671
+        },
+        "type": "SYS_STATUS",
+        "voltage_battery": 11896
+    },
+    "TERRAIN_REPORT": {
+        "current_height": 85.98701477050781,
+        "lat": -353603743,
+        "loaded": 504,
+        "lon": 1491649051,
+        "message_information": {
+            "counter": 13847,
+            "frequency": 261.26416015625,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.440254-03:00",
+                "last_message": "2020-07-03T19:43:39.035794-03:00"
+            }
+        },
+        "pending": 0,
+        "spacing": 100,
+        "terrain_height": 581.0245971679688,
+        "type": "TERRAIN_REPORT"
+    },
+    "TIMESYNC": {
+        "message_information": {
+            "counter": 144,
+            "frequency": 2.7169811725616455,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.498028-03:00",
+                "last_message": "2020-07-03T19:43:38.835073-03:00"
+            }
+        },
+        "tc1": 0,
+        "ts1": 801293521001,
+        "type": "TIMESYNC"
+    },
+    "VFR_HUD": {
+        "airspeed": 26.76430892944336,
+        "alt": 669.7899780273438,
+        "climb": 12.372234344482422,
+        "groundspeed": 24.152463912963867,
+        "heading": 354,
+        "message_information": {
+            "counter": 14604,
+            "frequency": 275.54718017578125,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.306181-03:00",
+                "last_message": "2020-07-03T19:43:39.037852-03:00"
+            }
+        },
+        "throttle": 100,
+        "type": "VFR_HUD"
+    },
+    "VIBRATION": {
+        "clipping_0": 0,
+        "clipping_1": 0,
+        "clipping_2": 0,
+        "message_information": {
+            "counter": 14726,
+            "frequency": 277.84906005859375,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307571-03:00",
+                "last_message": "2020-07-03T19:43:39.036020-03:00"
+            }
+        },
+        "time_usec": 807033724,
+        "type": "VIBRATION",
+        "vibration_x": 0.2880682945251465,
+        "vibration_y": 0.27437645196914673,
+        "vibration_z": 0.3091717064380646
+    },
+    "WIND": {
+        "direction": -11.22973346710205,
+        "message_information": {
+            "counter": 14704,
+            "frequency": 277.4339599609375,
+            "time": {
+                "first_message": "2020-07-03T19:42:45.307471-03:00",
+                "last_message": "2020-07-03T19:43:39.035693-03:00"
+            }
+        },
+        "speed": 1.5741554498672485,
+        "speed_z": 0,
+        "type": "WIND"
+    }
+}
