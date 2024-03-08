@@ -1,4 +1,4 @@
-class mavlink2rest {
+class Mavlink2Rest {
   AHRS? aHRS;
   AHRS2? aHRS2;
   AIRSPEEDAUTOCAL? aIRSPEEDAUTOCAL;
@@ -59,7 +59,7 @@ class mavlink2rest {
   VIBRATION? vIBRATION;
   WIND? wIND;
 
-  mavlink2rest(
+  Mavlink2Rest(
       {this.aHRS,
       this.aHRS2,
       this.aIRSPEEDAUTOCAL,
@@ -120,7 +120,7 @@ class mavlink2rest {
       this.vIBRATION,
       this.wIND});
 
-  mavlink2rest.fromJson(Map<String, dynamic> json) {
+  Mavlink2Rest.fromJson(Map<String, dynamic> json) {
     aHRS = json['AHRS'] != null ? new AHRS.fromJson(json['AHRS']) : null;
     aHRS2 = json['AHRS2'] != null ? new AHRS2.fromJson(json['AHRS2']) : null;
     aIRSPEEDAUTOCAL = json['AIRSPEED_AUTOCAL'] != null
